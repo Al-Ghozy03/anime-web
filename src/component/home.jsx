@@ -76,6 +76,7 @@ export default function Home() {
             url={i.url}
             judul={i.judul}
             episode={i.episode}
+            slug={i.slug}
           ></Ongoing>
         ))}
       </div>
