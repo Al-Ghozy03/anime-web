@@ -29,7 +29,7 @@ export default function CarouselData({url,judul,rating,sinopsis,slug,id}) {
               <p className="text-white text-xl">{sinopsis}</p>
             </div>
 
-            <Link to={`/home/list-episode/${slug}`}>
+            <Link to={`/home/list-episode/${id}`}>
               <div className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -18,21 +18,13 @@ function App() {
         <Route path="/" exact>
           <HomeNoAkun></HomeNoAkun>
         </Route>
-        <Route path="/home" exact>
-          <Home></Home>
-        </Route>
-        <Route path="/home/list-episode/:slug" exact>
+        <Route path="/home" exact><Home></Home></Route>
+        <Route path="/home/list-episode/:id" exact>
           <ListEpisode></ListEpisode>
         </Route>
-        <Route path="/home/list-episode/:slug/video">
-          <VideoPlayer></VideoPlayer>
-        </Route>
-        <Route path="/home/ongoing-all">
-          <ListOngoing></ListOngoing>
-        </Route>
-        <Route path="/home/movie-all">
-          <LisstMovie></LisstMovie>
-        </Route>
+        <Route path="/home/list-episode/:id/video"><VideoPlayer></VideoPlayer></Route>
+        <Route path="/home/ongoing-all"><ListOngoing></ListOngoing></Route>
+        <Route path="/home/movie-all"><LisstMovie></LisstMovie></Route>
         <Route path="/sign-in">
           <SignIn></SignIn>
         </Route>

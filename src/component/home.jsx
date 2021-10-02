@@ -77,6 +77,7 @@ export default function Home() {
             judul={i.judul}
             episode={i.episode}
             slug={i.slug}
+            id={i.id}
           ></Ongoing>
         ))}
       </div>
@@ -90,7 +91,7 @@ export default function Home() {
       <h1 className="text-3xl capitalize px-14 font-semibold mb-6">movie</h1>
       <div className="grid grid-cols-4 px-11">
         {movie?.map((i, key) => (
-          <Movie key={key} judul={i.judul} url={i.url}></Movie>
+          <Movie key={key} judul={i.judul} slug={i.slug} id={i.id} url={i.url}></Movie>
         ))}
       </div>
       <Link to="/home/movie-all" className="flex item-end justify-end px-11 ">
