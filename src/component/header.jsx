@@ -6,7 +6,7 @@ export default function Header() {
     return(
         <React.Fragment>
             <div className="flex justify-between py-10 px-11">
-                <Link to="/">
+                <Link to="/home">
                     <img className="h-10" src={animee} alt="" />
                 </Link>
                 <div className="flex">
