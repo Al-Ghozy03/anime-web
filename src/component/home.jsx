@@ -46,7 +46,7 @@ export default function Home() {
                 <Ongoing></Ongoing>
             </div>
                 <Link to="/ongoing-all" className="flex item-end justify-end px-11 ">
-                    <Link className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12"><p className="text-center text-xl font-semibold text-white py-3">More</p></Link>
+                    <div className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12"><p className="text-center text-xl font-semibold text-white py-3">More</p></div>
                 </Link>
             <h1 className="text-3xl capitalize px-14 font-semibold mb-6">movie</h1>
                 <div className="grid grid-cols-4 px-11">
