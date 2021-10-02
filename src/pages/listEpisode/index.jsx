@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import Header from "../../component/header";
+import Episode from "./list";
 
 export default function ListEpisode() {
   const [trend, setTrend] = React.useState([
@@ -60,49 +61,41 @@ export default function ListEpisode() {
       id: 5,
       url: "https://images4.alphacoders.com/978/thumb-1920-978847.jpg",
       judul: "Tensei Shitara Slime Datta Ken Season 2 Part 2",
-      episode: "8",
     },
     {
       id: 6,
-      url: "https://images4.alphacoders.com/978/thumb-1920-978847.jpg",
-      judul: "Tensei Shitara Slime Datta Ken Season 2 Part 2",
-      episode: "8",
+      url: "https://images4.alphacoders.com/117/thumb-1920-1172553.jpg",
+      judul: "the detective has already dead",
     },
     {
       id: 7,
       url: "https://images4.alphacoders.com/957/thumb-1920-957927.png",
       judul: "gotoubun no hanayome",
-      episode: "10",
     },
     {
       id: 8,
       url: "https://images.alphacoders.com/110/thumb-1920-1108683.jpg",
       judul: "mushoku tensei",
-      episode: "19",
     },
     {
       id: 9,
       url: "https://nawalakarsa.id/wp-content/uploads/2021/04/aquatopeheader.png",
       judul: "Shiroi Suna no Aquatope",
-      episode: "13",
     },
     {
       id: 10,
       url: "https://images7.alphacoders.com/115/thumbbig-1154420.webp",
       judul: "Scarlet Nexus",
-      episode: "14",
     },
     {
       id: 11,
       url: "https://www.themoviedb.org/t/p/w780/sAaGHo7ww5QMw6lk1ZWYrSPcgI7.jpg",
       judul: "Shaman King",
-      episode: "25",
     },
     {
       id: 12,
       url: "https://wallpapercave.com/wp/wp9585969.jpg",
       judul: "Re-Main",
-      episode: "11",
     },
     {
       id: 13,
@@ -162,7 +155,7 @@ export default function ListEpisode() {
       id: 22,
       url: "https://images.alphacoders.com/901/thumbbig-901101.webp",
       judul: "Detective Conan Movie 24: The Scarlet Bullet",
-      slug: "Detective-Cona-Movi-24:-The-Scarlet-Bullet",
+      slug: "Detective-Conan-Movi-24:-The-Scarlet-Bullet",
     },
   ]);
   let {id} = useParams()
@@ -216,40 +209,9 @@ export default function ListEpisode() {
           {/* Episode */}
           <div className="px-10">
             <h1 className="capitalize text-4xl font-semibold mb-5">episode</h1>
-            <div className=" px-9 grid grid-cols-4 text-lg">
-              <div className="flex flex-col">
-                <Link
-                  to={`/home/list-episode/${id}/video`}
-                  className="capitalize"
-                >
-                  episode-x
-                </Link>
-                <Link
-                  to={`/home/list-episode/${id}/video`}
-                  className="capitalize"
-                >
-                  episode-x
-                </Link>
-                <Link
-                  to={`/home/list-episode/${id}/video`}
-                  className="capitalize"
-                >
-                  episode-x
-                </Link>
-                <Link
-                  to={`/home/list-episode/${slug}/video`}
-                  className="capitalize"
-                >
-                  episode-x
-                </Link>
-                <Link
-                  to={`/home/list-episode/${slug}/video`}
-                  className="capitalize"
-                >
-                  episode-x
-                </Link>
-              </div>
-            </div>
+                {/* {detailAnime.map((i,key)=>(
+                  <Episode key={key} eps={i.episode}></Episode>
+                    ))} */}
           </div>
           {/* Episode */}
         </div>

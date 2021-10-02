@@ -16,10 +16,10 @@ export default function Home() {
     },
     {
       id: 6,
-      url: "https://images.alphacoders.com/820/thumb-1920-820755.png",
-      judul: "boruto the next generation",
-      slug: "boruto-the-next-generation",
-      episode: "217",
+      url: "https://images4.alphacoders.com/117/thumb-1920-1172553.jpg",
+      judul: "the detective has already dead",
+      slug: "the-detective-has-already-dead",
+      episode: "7",
     },
     {
       id: 7,
