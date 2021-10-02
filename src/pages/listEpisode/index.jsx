@@ -66,11 +66,11 @@ export default function ListEpisode() {
             <h1 className="capitalize text-4xl font-semibold mb-5">episode</h1>
             <div className=" px-9 grid grid-cols-4 text-lg">
               <div className="flex flex-col">
-                <Link to={`/list-episode/video`} className="capitalize">episode-x</Link>
-                <Link to={`/list-episode/video`} className="capitalize">episode-x</Link>
-                <Link to={`/list-episode/video`} className="capitalize">episode-x</Link>
-                <Link to={`/list-episode/video`} className="capitalize">episode-x</Link>
-                <Link to={`/list-episode/video`} className="capitalize">episode-x</Link>
+                <Link to={`/home/list-episode/video`} className="capitalize">episode-x</Link>
+                <Link to={`/home/list-episode/video`} className="capitalize">episode-x</Link>
+                <Link to={`/home/list-episode/video`} className="capitalize">episode-x</Link>
+                <Link to={`/home/list-episode/video`} className="capitalize">episode-x</Link>
+                <Link to={`/home/list-episode/video`} className="capitalize">episode-x</Link>
               </div>
               
             </div>

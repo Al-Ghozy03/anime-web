@@ -20,7 +20,7 @@ export default function VideoPlayer() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                         </svg>
                     </div>
-                    <Link to="/list-episode">
+                    <Link to="/home/list-episode">
                         <div className="bg-gradient-to-r from-blue-700 to-blue-500 h-16 rounded-full px-7 flex w-80">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white my-3 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
