@@ -2,7 +2,6 @@ import React from "react";
 import Carousel, { autoplayPlugin, Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "../tinggi.css";
-import Poto from "./potoCarousel";
 import { div } from "react-router-dom";
 import swal from "sweetalert";
 

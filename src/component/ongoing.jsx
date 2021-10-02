@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Ongoing(props) {
     return(
         <React.Fragment>
-            <Link to={`/home/list-episode/${props.slug}`} className="mb-4 px-10">
+            <Link to={`/home/list-episode/${props.id}`} className="mb-4 px-10">
                 <div>
                     <div style={{backgroundImage:`url(${props.url})`}} className="bg-red-700 w-80 bg-cover rounded-2xl h-40">
                         <div className="bg-black h-40 w-80 rounded-2xl bg-opacity-70">

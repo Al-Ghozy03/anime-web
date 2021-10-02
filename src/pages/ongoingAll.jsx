@@ -66,6 +66,7 @@ export default function ListOngoing() {
                     judul={i.judul}
                     url={i.url}
                     episode={i.episode}
+                    id={i.id}
                 ></DataOnGoingAll>
                 )}
             </div>

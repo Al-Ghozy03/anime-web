@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function DataOnGoingAll({url,judul,episode}) {
+export default function DataOnGoingAll({url,judul,episode,id}) {
     return(
         <React.Fragment>
-            <div className="mb-9 px-10">
+            <Link to={`/home/list-episode/${id}`} className="mb-9 px-10">
                 <div>
                     <div style={{backgroundImage:`url(${url})`}} className="bg-red-700 w-80 bg-cover rounded-2xl h-40">
                         <div className="bg-black h-40 w-80 rounded-2xl bg-opacity-70">
@@ -20,7 +21,7 @@ export default function DataOnGoingAll({url,judul,episode}) {
                     <h3 className="text-2xl capitalize font-semibold">{judul}</h3>
                 </div>
                 <h3 className="text-lg text-gray-600 capitalize">episode {episode}</h3>
-            </div>
+            </Link>
         </React.Fragment>
     )
 }
