@@ -11,7 +11,6 @@ import SignUp from "./pages/sign up";
 import VideoPlayer from "./pages/videoPlayer";
 import HomeNoAkun from "./component/homeNoAkun";
 
-
 function App() {
   return (
     <BrowserRouter>
@@ -32,7 +31,6 @@ function App() {
         <Route path="/sign-up">
           <SignUp></SignUp>
         </Route>
-
       </Switch>
     </BrowserRouter>
   );
