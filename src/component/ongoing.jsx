@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Ongoing(props) {
     return(
         <React.Fragment>
-            <div className="mb-4 px-10">
+            <Link to={`/home/list-anime/${props.slug}`} className="mb-4 px-10">
                 <div>
                     <div style={{backgroundImage:`url(${props.url})`}} className="bg-red-700 w-80 bg-cover rounded-2xl h-40">
                         <div className="bg-black h-40 w-80 rounded-2xl bg-opacity-70">
@@ -20,7 +21,7 @@ export default function Ongoing(props) {
                     <h3 className="text-2xl capitalize font-semibold">{props.judul}</h3>
                 </div>
                 <h3 className="text-lg text-gray-600 capitalize">episode {props.episode}</h3>
-            </div>
+            </Link>
         </React.Fragment>
     )
 }
