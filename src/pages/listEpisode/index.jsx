@@ -2,9 +2,10 @@ import React from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import Header from "../../component/header";
+import ListData from "../../component/listEpisodeData";
 
 export default function ListEpisode() {
-  const [detailAnime,setDetailAnime] = React.useState([
+  const [detailAnime, setDetailAnime] = React.useState([
     {
       id: 1,
       slug: "tokyo-revengers",
@@ -34,7 +35,7 @@ export default function ListEpisode() {
     },
     {
       id: 4,
-      slug:"shingeki-no-kojin",
+      slug: "shingeki-no-kojin",
       judul: "shingeki no kyojin",
       rating: "8,48",
       sinopsis:
@@ -51,72 +52,126 @@ export default function ListEpisode() {
       url: "https://images.alphacoders.com/110/thumb-1920-1108683.jpg",
     },
   ]);
-  let {slug} = useParams()
-  console.log({slug})
+  let { slug } = useParams();
+  console.log({ slug });
   return (
     <React.Fragment>
       <div className="">
         <Header></Header>
         {/* Isi */}
-        <div className="space-y-8 px-12 h-screen py-10">
-          <h1 className="text-5xl capitalize font-semibold mb-16 ">{detailAnime?.judul}</h1>
-          <div
-            style={{
-              backgroundImage: `url(${detailAnime.url})`,
-            }}
-            className=" bg-cover bg-red-400 h-7/10 rounded-2xl  mx-10"
-          ></div>
-          <div className="flex justify-between mx-12 font-semibold text-2xl ">
-            <div>
-              <h1 className="mb-2">Judul : <span className="capitalize font-normal">tokyo revengers</span></h1>
-              <h1>Studio : <span className="capitalize font-normal">LIDENFILMS</span></h1>
-            </div>
-            <div>
-              <h1 className="mb-2">Jumlah Episode : <span className="capitalize font-normal">23</span></h1>
-              <h1>Status : <span className="capitalize font-normal">complete</span></h1>
-            </div>
-          </div>
+        {detailAnime.map((anime, index) => (
+          <ListData
+          id={anime.id}
+          slug={anime.slug}
+          sinopsis={anime.sinopsis}
+          judul={anime.judul}
+          url={anime.url}></ListData>
+          // <div className="space-y-8 px-12 h-screen py-10">
+          //   <h1 className="text-5xl capitalize font-semibold mb-16 ">
+          //     {anime?.judul}
+          //   </h1>
+          //   <div
+          //     style={{
+          //       backgroundImage: `url(${anime.url})`,
+          //     }}
+          //     className=" bg-cover bg-red-400 h-7/10 rounded-2xl  mx-10"
+          //   ></div>
 
-          {/* Sinopsis */}
-          <div className='mx-10 space-y-3'>
-            <h1 className='text-4xl font-semibold mb-5'>Sinopsis</h1>
-            <p className='text-xl mt-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              magnam obcaecati perferendis voluptatem! Nisi sint delectus odio
-              mollitia. Tempora dicta sunt vel ad facilis! Consequatur,
-              provident tenetur? Voluptate, impedit dolorem? Ipsa vitae
-              blanditiis fugiat similique perferendis aperiam veritatis
-              accusamus reiciendis quas magni, nulla deserunt maxime soluta,
-              itaque nostrum suscipit. Suscipit totam possimus dignissimos
-              tenetur qui beatae dolor quasi labore quas doloribus velit quo
-              minima aliquam voluptates sunt maiores, sint dolorem nihil officia
-              obcaecati soluta id, accusantium temporibus. Enim magnam debitis
-              laudantium libero autem praesentium. Nobis, beatae. Deserunt totam
-              labore maxime voluptatibus in maiores libero necessitatibus
-              dolores, voluptatum, recusandae tenetur sequi voluptas
-              exercitationem, fuga consequatur voluptate quo repellendus
-              assumenda. Nam enim possimus quo similique, tempore minima. Culpa
-              blanditiis explicabo similique facere.
-            </p>
-          </div>
-          {/* Sinopsis */}
-          {/* Episode */}
-          <div className="px-10">
-            <h1 className="capitalize text-4xl font-semibold mb-5">episode</h1>
-            <div className=" px-9 grid grid-cols-4 text-lg">
-              <div className="flex flex-col">
-                <Link to={`/home/list-episode/${slug}/video`} className="capitalize">episode-x</Link>
-                <Link to={`/home/list-episode/${slug}/video`} className="capitalize">episode-x</Link>
-                <Link to={`/home/list-episode/${slug}/video`} className="capitalize">episode-x</Link>
-                <Link to={`/home/list-episode/${slug}/video`} className="capitalize">episode-x</Link>
-                <Link to={`/home/list-episode/${slug}/video`} className="capitalize">episode-x</Link>
-              </div>
-              
-            </div>
-          </div>
-          {/* Episode */}
-        </div>
+          //   <div>
+          //     <div className="flex justify-between mx-12 font-semibold text-2xl ">
+          //       <div>
+          //         <h1 className="mb-2">
+          //           Judul :{" "}
+          //           <span className="capitalize font-normal">
+          //             {detailAnime.judul}
+          //           </span>
+          //         </h1>
+          //         <h1>
+          //           Studio :{" "}
+          //           <span className="capitalize font-normal">LIDENFILMS</span>
+          //         </h1>
+          //       </div>
+          //       <div>
+          //         <h1 className="mb-2">
+          //           Jumlah Episode :{" "}
+          //           <span className="capitalize font-normal">23</span>
+          //         </h1>
+          //         <h1>
+          //           Status :{" "}
+          //           <span className="capitalize font-normal">complete</span>
+          //         </h1>
+          //       </div>
+          //     </div>
 
+          //     {/* Sinopsis */}
+          //     <div className="mx-10 space-y-3">
+          //       <h1 className="text-4xl font-semibold mb-5">{anime.sinopsis}</h1>
+          //       <p className="text-xl mt-4">
+          //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+          //         magnam obcaecati perferendis voluptatem! Nisi sint delectus
+          //         odio mollitia. Tempora dicta sunt vel ad facilis! Consequatur,
+          //         provident tenetur? Voluptate, impedit dolorem? Ipsa vitae
+          //         blanditiis fugiat similique perferendis aperiam veritatis
+          //         accusamus reiciendis quas magni, nulla deserunt maxime soluta,
+          //         itaque nostrum suscipit. Suscipit totam possimus dignissimos
+          //         tenetur qui beatae dolor quasi labore quas doloribus velit quo
+          //         minima aliquam voluptates sunt maiores, sint dolorem nihil
+          //         officia obcaecati soluta id, accusantium temporibus. Enim
+          //         magnam debitis laudantium libero autem praesentium. Nobis,
+          //         beatae. Deserunt totam labore maxime voluptatibus in maiores
+          //         libero necessitatibus dolores, voluptatum, recusandae tenetur
+          //         sequi voluptas exercitationem, fuga consequatur voluptate quo
+          //         repellendus assumenda. Nam enim possimus quo similique,
+          //         tempore minima. Culpa blanditiis explicabo similique facere.
+          //       </p>
+          //     </div>
+          //   </div>
+
+          //   {/* Sinopsis */}
+
+          //   {/* Episode */}
+          //   <div className="px-10">
+          //     <h1 className="capitalize text-4xl font-semibold mb-5">
+          //       episode
+          //     </h1>
+          //     <div className=" px-9 grid grid-cols-4 text-lg">
+          //       <div className="flex flex-col">
+          //         <Link
+          //           to={`/home/list-episode/${slug}/video`}
+          //           className="capitalize"
+          //         >
+          //           episode-x
+          //         </Link>
+          //         <Link
+          //           to={`/home/list-episode/${slug}/video`}
+          //           className="capitalize"
+          //         >
+          //           episode-x
+          //         </Link>
+          //         <Link
+          //           to={`/home/list-episode/${slug}/video`}
+          //           className="capitalize"
+          //         >
+          //           episode-x
+          //         </Link>
+          //         <Link
+          //           to={`/home/list-episode/${slug}/video`}
+          //           className="capitalize"
+          //         >
+          //           episode-x
+          //         </Link>
+          //         <Link
+          //           to={`/home/list-episode/${slug}/video`}
+          //           className="capitalize"
+          //         >
+          //           episode-x
+          //         </Link>
+          //       </div>
+          //     </div>
+          //   </div>
+          //   {/* Episode */}
+          // </div>
+        ))}
         {/* Isi */}
       </div>
     </React.Fragment>
