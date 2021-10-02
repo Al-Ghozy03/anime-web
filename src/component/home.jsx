@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
 
     const [onGoing,setOnGoing] = React.useState([
+        
         {
             id:5,
             url:"https://images4.alphacoders.com/978/thumb-1920-978847.jpg",
@@ -37,24 +38,24 @@ export default function Home() {
 
     const [movie, setMovie] = React.useState([
         {
-            id:9,
+            id:13,
             url:"https://images4.alphacoders.com/687/thumb-1920-687986.jpg",
             judul:"kimi no nawa",
         },
         {
-            id:10,
+            id:14,
             url:"https://images5.alphacoders.com/100/thumb-1920-1003363.jpg",
             judul:"tenki no ko",
         },
         {
-            id:11,
+            id:15,
             url:"https://images4.alphacoders.com/738/thumb-1920-738316.jpg",
             judul:"koe no katachi",
         },
         {
-            id:12,
+            id:16,
             url:"https://images6.alphacoders.com/115/thumb-1920-1150499.png",
-            judul:"kimitsu no yaiba mugen train",
+            judul:"kimetsu no yaiba mugen train",
         },
     ])
     console.log(movie)
