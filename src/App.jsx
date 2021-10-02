@@ -20,10 +20,10 @@ function App() {
           <HomeNoAkun></HomeNoAkun>
         </Route>
         <Route path="/home" exact><Home></Home></Route>
-        <Route path="/home/list-episode" exact>
+        <Route path="/home/list-episode/:slug" exact>
           <ListEpisode></ListEpisode>
         </Route>
-        <Route path="/home/list-episode/video"><VideoPlayer></VideoPlayer></Route>
+        <Route path="/home/list-episode/:slug/video"><VideoPlayer></VideoPlayer></Route>
         <Route path="/home/ongoing-all"><ListOngoing></ListOngoing></Route>
         <Route path="/home/movie-all"><LisstMovie></LisstMovie></Route>
         <Route path="/sign-in">

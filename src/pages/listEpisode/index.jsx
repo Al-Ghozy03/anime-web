@@ -4,16 +4,29 @@ import { Link } from "react-router-dom";
 import Header from "../../component/header";
 
 export default function ListEpisode() {
-  const [anime, setAnime] = React.useState({
-    
-    id: 1,
-    judul: "hehe",
-    rating: "",
-    sinopsis: "",
-    episode: "",
-    studio: "",
-    status: "",
-  });
+  const [detailAnime,setDetailAnime] = React.useState([
+    {
+      id:1,
+      slug:"tokyo-revengers",
+      judul:"tokyo revengers",
+      studio:"LIDENFILMS",
+      jumlahEpisode:"23",
+      status:"complete",
+      sinopsis:"Saat menonton berita, Takemichi Hanagaki terkejut mengetahui mantan pacarnya, Hinata Tachibana meninggal dunia. Hinata dibunuh oleh kelompok yang dikenal sebagai Geng Manji Tokyo. Takemichi yang saat ini berada di titik terendah hidupnya tiba-tiba ia melompati waktu ke masa dua belas tahun, ketika dirinya masih menjalin hubungan dengan Hinata. Menyadari dia memiliki kesempatan untuk menyelamatkan Hinata, ia memutuskan untuk menyusup ke Geng Manji Tokyo dan mengubah takdir.",
+    },
+    {
+      id:5,
+      slug:"mushoku-tensei-isekai-ittara-honki-dasu",
+      judul:"tokyo ghoul",
+      studio:"LIDENFILMS",
+      jumlahEpisode:"23",
+      https:"//images6.alphacoders.com/115/thumb-1920-1150499.png",
+      status:"complete",
+      sinopsis:"Saat menonton berita, Takemichi Hanagaki terkejut mengetahui mantan pacarnya, Hinata Tachibana meninggal dunia. Hinata dibunuh oleh kelompok yang dikenal sebagai Geng Manji Tokyo. Takemichi yang saat ini berada di titik terendah hidupnya tiba-tiba ia melompati waktu ke masa dua belas tahun, ketika dirinya masih menjalin hubungan dengan Hinata. Menyadari dia memiliki kesempatan untuk menyelamatkan Hinata, ia memutuskan untuk menyusup ke Geng Manji Tokyo dan mengubah takdir.",
+    },
+  ])
+  let {slug} = useParams()
+  console.log({slug})
   return (
     <React.Fragment>
       <div className="">
@@ -23,7 +36,7 @@ export default function ListEpisode() {
           <h1 className="text-5xl capitalize font-semibold mb-16 ">Tokyo Revengers</h1>
           <div
             style={{
-              backgroundImage: `url("https://images3.alphacoders.com/115/1155000.jpg")`,
+              backgroundImage: `url(${detailAnime[1].url})`,
             }}
             className=" bg-cover bg-red-400 h-7/10 rounded-2xl  mx-10"
           ></div>

@@ -5,11 +5,13 @@ import "../tinggi.css";
 import Poto from "./potoCarousel";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
+import CarouselData from "./carouselData";
 export default function CarouselImage() {
 
   const [trend, setTrend] = React.useState([
     {
       id: 1,
+      slug: "tokyo-revengers",
       judul: "tokyo revengers",
       rating: "8.5",
       sinopsis:
@@ -18,6 +20,7 @@ export default function CarouselImage() {
     },
     {
       id: 2,
+      slug: "jujutsu-kaisen",
       judul: "jujutsu kaisen",
       rating: "8.78",
       sinopsis:
@@ -26,6 +29,7 @@ export default function CarouselImage() {
     },
     {
       id: 3,
+      slug: "boruto-the-next-generation",
       judul: "boruto the next generation",
       rating: "6.61",
       sinopsis:
@@ -34,6 +38,7 @@ export default function CarouselImage() {
     },
     {
       id: 4,
+      slug:"shingeki-no-kojin",
       judul: "shingeki no kyojin",
       rating: "8,48",
       sinopsis:
@@ -42,6 +47,7 @@ export default function CarouselImage() {
     },
     {
       id: 5,
+      slug: "Mushoku-Tensei-Isekai-Ittara-Honki-Dasu",
       judul: "Mushoku Tensei: Isekai Ittara Honki Dasu",
       rating: "8,46",
       sinopsis:
@@ -68,7 +74,19 @@ export default function CarouselImage() {
         ]}
         animationSpeed={1000}
         >
-          <div>
+          {trend?.map((i,key)=>
+          <CarouselData
+          key={key}
+          url={i.url}
+          rating={i.rating}
+          judul={i.judul}rating={i.rating}
+          sinopsis={i.sinopsis}
+          slug={i.slug}
+          id={i.id}
+          ></CarouselData>
+
+          )}
+          {/* <div>
             <div
               style={{
                 backgroundImage: `url(${trend[0].url})`,
@@ -96,7 +114,7 @@ export default function CarouselImage() {
                   </p>
                 </div>
 
-                <Link to={`/home/list-episode`}>
+                <Link to={`/home/list-episode/${trend[0].slug}`}>
                   <div className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +172,7 @@ export default function CarouselImage() {
                   </p>
                 </div>
 
-                <Link to={`/home/list-episode`}>
+                <Link to={`/home/list-episode/${trend[1].slug}`}>
                   <div className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -212,7 +230,7 @@ export default function CarouselImage() {
                   </p>
                 </div>
 
-                <Link to={`/home/list-episode`}>
+                <Link to={`/home/list-episode/${trend[2].slug}`}>
                   <div className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -270,7 +288,7 @@ export default function CarouselImage() {
                   </p>
                 </div>
 
-                <Link to={`/home/list-episode`}>
+                <Link to={`/home/list-episode/${trend[3].slug}`}>
                   <div className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +346,7 @@ export default function CarouselImage() {
                   </p>
                 </div>
 
-                <Link to={`/home/list-episode`}>
+                <Link to={`/home/list-episode/${trend[4].slug}`}>
                   <div className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +375,7 @@ export default function CarouselImage() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </Carousel>
       </div>
     </React.Fragment>
