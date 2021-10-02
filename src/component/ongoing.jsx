@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function Ongoing() {
+export default function Ongoing(props) {
+    console.log(props)
     return(
         <React.Fragment>
             <div className="mb-4 px-10">
                 <div>
-                    <div style={{backgroundImage:`url("https://images7.alphacoders.com/115/thumb-1920-1155001.jpg")`}} className="bg-red-700 w-80 bg-cover rounded-2xl h-40">
+                    <div style={{backgroundImage:`url(${props.url})`}} className="bg-red-700 w-80 bg-cover rounded-2xl h-40">
                         <div className="bg-black h-40 w-80 rounded-2xl bg-opacity-70">
                             <div className="py-14 px-32">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -17,9 +18,9 @@ export default function Ongoing() {
                     </div>
                 </div>
                 <div className="mt-4">
-                    <h3 className="text-2xl capitalize font-semibold">Tensei shitara Slime Datta <br /> Ken Season 2 Part 2</h3>
+                    <h3 className="text-2xl capitalize font-semibold">{props.judul}</h3>
                 </div>
-                <h3 className="text-lg text-gray-600 capitalize">episode 13</h3>
+                <h3 className="text-lg text-gray-600 capitalize">episode {props.episode}</h3>
             </div>
         </React.Fragment>
     )
