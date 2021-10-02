@@ -32,9 +32,32 @@ export default function Home() {
             judul:"mushoku tensei",
             episode:"19",
         },
+        
     ])
-    console.log(onGoing)
 
+    const [movie, setMovie] = React.useState([
+        {
+            id:9,
+            url:"https://images4.alphacoders.com/687/thumb-1920-687986.jpg",
+            judul:"kimi no nawa",
+        },
+        {
+            id:10,
+            url:"https://images5.alphacoders.com/100/thumb-1920-1003363.jpg",
+            judul:"tenki no ko",
+        },
+        {
+            id:11,
+            url:"https://images4.alphacoders.com/738/thumb-1920-738316.jpg",
+            judul:"koe no katachi",
+        },
+        {
+            id:12,
+            url:"https://images6.alphacoders.com/115/thumb-1920-1150499.png",
+            judul:"kimitsu no yaiba mugen train",
+        },
+    ])
+    console.log(movie)
     return(
         <React.Fragment>
             <Header></Header>
@@ -55,10 +78,13 @@ export default function Home() {
                 </Link>
             <h1 className="text-3xl capitalize px-14 font-semibold mb-6">movie</h1>
                 <div className="grid grid-cols-4 px-11">
-                    <Movie></Movie>
-                    <Movie></Movie>
-                    <Movie></Movie>
-                    <Movie></Movie>
+                    {movie?.map((i,key)=>
+                    <Movie
+                    key={key}
+                    judul={i.judul}
+                    url={i.url}
+                    ></Movie>
+                    )}
                 </div>
                 <Link to="/home/movie-all" className="flex item-end justify-end px-11 ">
                     <div className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12"><p className="text-center text-xl font-semibold text-white py-3">More</p></div>

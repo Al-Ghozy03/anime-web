@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Ongoing(props) {
-    console.log(props)
     return(
         <React.Fragment>
             <div className="mb-4 px-10">
