@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import animee from "../assets/Animee.png"
+import { useHistory } from "react-router";
 
 export default function HeaderNo() {
+    let history = useHistory()
     return(
         <React.Fragment>
             <div className="flex justify-between py-10 px-11">
@@ -15,8 +17,8 @@ export default function HeaderNo() {
                         </svg>
                     </div>
                     <div className="flex justify-between">
-                        <Link to="/sign-in" className="w-32 rounded-full hover:bg-blue-700 hover:text-white border border-blue-700 text-center h-10" style={{paddingTop:"3px"}}>Sign in</Link>
-                        <Link to="/sign-up" className="w-32 rounded-full border hover:border-blue-700 hover:bg-white hover:text-black text-white bg-blue-700 text-center h-10 ml-6" style={{paddingTop:"3px"}}>Sign up</Link>
+                        <button onClick={()=>{history.push("/sign-in")}} className="w-32 rounded-full hover:bg-blue-700 hover:text-white border border-blue-700 text-center h-10">Sign in</button>
+                        <button onClick={()=>{history.push("/sign-up")}} className="w-32 rounded-full border hover:border-blue-700 hover:bg-white hover:text-black text-white bg-blue-700 text-center h-10 ml-6">Sign up</button>
                     </div>
                 </div>
             </div>

@@ -24,31 +24,31 @@ export default function LisstMovie() {
         },
         {
             id:16,
-            url:"https://images.alphacoders.com/115/thumbbig-1150498.webp",
+            url:"https://images6.alphacoders.com/115/thumb-1920-1150499.png",
             judul:"kimetsu no yaiba mugen train",
              slug:"kimetsu-no-yaiba-mugen-train",
         },
         {
             id:17,
-            url:"https://images2.alphacoders.com/109/thumbbig-1093000.webp",
+            url:"https://images2.alphacoders.com/109/thumb-1920-1093000.png",
             judul:"A Whisker Away",
              slug:"A-Whisker-Away",
         },
         {
             id:18,
-            url:"https://images2.alphacoders.com/856/thumbbig-856712.webp",
-            judul:" Made in Abyss: Dawn of the Deep Soul",
-             slug:"Made-in-Abyss:-Dawn-of-the-Deep-Soul",
+            url:"https://i0.wp.com/animenewsplus.net/wp-content/uploads/2020/06/Anime-Josee-to-Tora-to-Sakana-tachi-Visual.jpg?fit=2400%2C1900&ssl=1",
+            judul: " josee to tora to sakana-tachi",
+            slug: "josee-to-tora-to-sakana-tachi",
         },
         {
             id:19,
-            url:"https://images4.alphacoders.com/678/thumbbig-678893.webp",
+            url:"https://images4.alphacoders.com/678/thumb-1920-678893.jpg",
             judul:"Digimon Adventure: Last Evolution Kizuna",
              slug:"Digimon-Adventure:-Last-Evolution-Kizuna",
         },
         {
             id:20,
-            url:"https://images8.alphacoders.com/545/thumbbig-545284.webp",
+            url:"https://images.alphacoders.com/872/thumb-1920-872607.jpg",
             judul:"Psycho-Pass 3: First Inspector",
              slug:"Psycho-Pass-3:-First-Inspector",
         },
@@ -60,9 +60,9 @@ export default function LisstMovie() {
         },
         {
             id:22,
-            url:"https://images.alphacoders.com/901/thumbbig-901101.webp",
+            url:"https://images4.alphacoders.com/911/thumb-1920-911581.jpg",
             judul:"Detective Conan Movie 24: The Scarlet Bullet",
-             slug:"Detective-Cona-Movi-24:-The-Scarlet-Bullet",
+            slug:"Detective-Cona-Movi-24:-The-Scarlet-Bullet",
         },
         
     ])

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -22,7 +21,7 @@ function App() {
         <Route path="/home/list-episode/:id" exact>
           <ListEpisode></ListEpisode>
         </Route>
-        <Route path="/home/list-episode/:id/video"><VideoPlayer></VideoPlayer></Route>
+        <Route path="/home/list-episode/:id/video/:eps"><VideoPlayer></VideoPlayer></Route>
         <Route path="/home/ongoing-all"><ListOngoing></ListOngoing></Route>
         <Route path="/home/movie-all"><LisstMovie></LisstMovie></Route>
         <Route path="/sign-in">

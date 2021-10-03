@@ -4,8 +4,9 @@ import CarouselImage from "./carousel";
 import Header from "./header";
 import Movie from "./movie";
 import { Link } from "react-router-dom";
-
+import { useHistory } from "react-router";
 export default function Home() {
+  let history = useHistory()
   const [onGoing, setOnGoing] = React.useState([
     {
       id: 5,
@@ -63,7 +64,6 @@ export default function Home() {
       slug: "kimetsu-no-yaiba-mugen-train",
     },
   ]);
-  console.log(movie);
   return (
     <React.Fragment>
       <Header></Header>
@@ -81,26 +81,18 @@ export default function Home() {
           ></Ongoing>
         ))}
       </div>
-      <Link to="/home/ongoing-all" className="flex item-end justify-end px-11 ">
-        <div className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12">
-          <p className="text-center text-xl font-semibold text-white py-3">
-            More
-          </p>
-        </div>
-      </Link>
+      <div className="flex item-end justify-end px-11 pb-8">
+        <button onClick={()=>{history.push("/home/ongoing-all")}} className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12 text-center text-xl font-semibold text-white">More</button>
+      </div>
       <h1 className="text-3xl capitalize px-14 font-semibold mb-6">movie</h1>
       <div className="grid grid-cols-4 px-11">
         {movie?.map((i, key) => (
           <Movie key={key} judul={i.judul} slug={i.slug} id={i.id} url={i.url}></Movie>
         ))}
       </div>
-      <Link to="/home/movie-all" className="flex item-end justify-end px-11 ">
-        <div className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12">
-          <p className="text-center text-xl font-semibold text-white py-3">
-            More
-          </p>
-        </div>
-      </Link>
+      <div className="flex item-end justify-end px-11 pb-8">
+        <button onClick={()=>{history.push("/home/movie-all")}} className="bg-gradient-to-r shadow-md from-blue-700 to-blue-500 w-36 rounded-full h-12 text-center text-xl font-semibold text-white">More</button>
+      </div>
     </React.Fragment>
   );
 }

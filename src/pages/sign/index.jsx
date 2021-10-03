@@ -21,7 +21,9 @@ export default function SignIn() {
             <input type="password" placeholder="Type here..." className="border pl-4 h-12 rounded-lg shadow-lg outline-none bg-gray-100" />
           </div>
           <p className="capitalize text-right text-gray-400 my-5">forgot password?</p>
-          <button className="bg-gradient-to-r from-blue-700 shadow-lg w-full to-blue-500 text-white text-2xl py-2 rounded-lg">Sign in</button>
+          <Link to="/home">
+            <button className="bg-gradient-to-r from-blue-700 shadow-lg w-full to-blue-500 text-white text-2xl py-2 rounded-lg">Sign in</button>
+          </Link>
           <h1 className="text-center capitalize text-lg mt-11">don't have account? <Link to="/sign-up" className="text-blue-600">sign up</Link></h1>
         </form>
         <div className="">

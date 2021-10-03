@@ -1,11 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useHistory } from "react-router";
+import swal from "sweetalert";
 
-export default function CarouselData({url,judul,rating,sinopsis,slug,id}) {
-
-  let history = useHistory()
-
+export default function CarouselDataNo({url,judul,rating,sinopsis,slug,id}) {
   return (
     <React.Fragment>
       <div>
@@ -34,8 +30,9 @@ export default function CarouselData({url,judul,rating,sinopsis,slug,id}) {
               <p className="text-white text-xl">{sinopsis}</p>
             </div>
 
-            {/* <Link to={`/home/list-episode/${id}`}> */}
-              <button onClick={()=>history.push(`/home/list-episode/${id}`)} className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
+              <button onClick={()=>{
+                swal("Warning", "Kamu harus login dahulu", "warning")
+              }} className="bg-white my-20 rounded-full py-2 px-3 bg-opacity-20 w-48 h-14 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-10 text-white w-10"
@@ -60,7 +57,6 @@ export default function CarouselData({url,judul,rating,sinopsis,slug,id}) {
                   watch now
                 </p>
               </button>
-            {/* </Link> */}
           </div>
         </div>
       </div>

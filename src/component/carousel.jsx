@@ -2,8 +2,6 @@ import React from "react";
 import Carousel, { autoplayPlugin, Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "../tinggi.css";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router";
 import CarouselData from "./carouselData";
 export default function CarouselImage() {
 
@@ -28,20 +26,20 @@ export default function CarouselImage() {
     },
     {
       id: 2,
-      slug: "boruto-the-next-generation",
-      judul: "boruto the next generation",
-      rating: "6.61",
+      slug: "tokyo-ghoul",
+      judul: "tokyo ghoul",
+      rating: "7.96",
       sinopsis:
-        "Boruto adalah anak dari Uzumaki Naruto, hokage ketujuh yang dihormati sebagai pahlawan yang telah berjasa dalam menyelamatkan dunia. Cerita anime ini berfokus pada Boruto dan teman-temannya sebagai ninja generasi baru yang diharapkan dapat melampaui generasi sebelumnya.",
-      url: "https://images.alphacoders.com/810/thumb-1920-810561.png",
+        "Tokyo dihantui oleh “ghouls” misterius yang melahap manusia. Manusia dicekam oleh ketakutan dari para ghoulyang identitasnya masih menjadi misteri. Seorang mahasiswa biasa bernama Kaneki bertemu Rize, perempuan yang hobi membaca sepertinya, di café yang sering Kaneki kunjungi. Iapun menyadari bahwa takdirnya akan berubah pada malam itu.",
+      url: "https://images4.alphacoders.com/596/thumb-1920-596845.jpg",
     },
     {
       id: 3,
       slug: "shingeki-no-kojin",
-      judul: "shingeki no kyojin",
+      judul: "shingeki no kyojin final season",
       rating: "8,48",
       sinopsis:
-        "Selama beratus-ratus tahun manusia menjadi mangsa para Titan. Untuk berlindung dari serangan para Titan, umat manusia membangun tembok yang sangat besar dan tinggi. Namun tembok ini tak selamanya dapat melindungi manusia. Satu Titan raksasa berhasil menghancurkan tombok dan masuk ke wilayah pemukiman. Umat manusia pun tak punya pilihan lain selain bertempur untuk bertahan hidup.",
+        "Gabi Braun dan Falco Grice telah melatih seluruh hidup mereka untuk mewarisi salah satu dari tujuh raksasa di bawah kendali Marley dan membantu negara mereka dalam memberantas para Tetua di Paradis. Namun, karena semua tampak baik-baik saja bagi kedua kadet, kedamaian mereka tiba-tiba terguncang oleh kedatangan Eren Yeager dan sisa anggota Survey Corps. Setelah akhirnya mencapai ruang bawah tanah keluarga Yeager dan belajar tentang sejarah kelam seputar para raksasa, Survey Corps akhirnya menemukan jawaban yang mereka perjuangkan dengan susah payah untuk mengungkapnya. ",
       url: "https://images7.alphacoders.com/607/thumb-1920-607711.jpg",
     },
     {
