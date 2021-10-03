@@ -50,7 +50,7 @@ export default function ListEpisode() {
       sinopsis:
         "Setelah berakhirnya Perang Dunia Shinobi Keempat dengan sukses, Konohagakure telah menikmati masa damai, kemakmuran, dan kemajuan teknologi yang luar biasa. Ini semua karena upaya Pasukan Sekutu Shinobi dan Hokage Ketujuh desa, Naruto Uzumaki. Sekarang menyerupai kota metropolitan modern, Konohagakure telah berubah, terutama kehidupan shinobi. Di bawah pengawasan Naruto dan rekan-rekan lamanya, generasi baru shinobi telah melangkah untuk mempelajari cara-cara ninja.Boruto Uzumaki sering menjadi pusat perhatian sebagai anak dari Hokage Ketujuh. Meskipun mewarisi sikap Naruto yang riuh dan keras kepala, Boruto dianggap sebagai anak ajaib dan mampu mengeluarkan potensinya dengan bantuan teman dan keluarga yang mendukung. Sayangnya, ini hanya memperburuk kesombongan dan keinginannya untuk melampaui Naruto yang, bersama dengan gaya hidup ayahnya yang sibuk, telah membuat hubungan mereka tegang. Namun, kekuatan jahat yang muncul di dalam desa dapat mengancam kehidupan Boruto yang riang. Teman-teman baru dan wajah-wajah yang familiar bergabung dengan Boruto saat cerita baru dimulai di Boruto: Naruto Next Generations .",
       status: "Ongoing",
-      jumlahEps: "#",
+      jumlahEps: "0",
     },
     {
       id: 3,
@@ -127,7 +127,7 @@ export default function ListEpisode() {
       sinopsis:
         "Setelah meninggalkan karir idolanya, Fuuka Miyazawa mendapati dirinya dalam penerbangan spontan ke Okinawa alih-alih pulang ke pesta belas kasihannya di Morioka. Dengan berat hati dan tidak ada tempat untuk pergi, dia berkeliaran tanpa tujuan di sekitar area itu sampai dia menemukan Akuarium Gama Gama—akuarium tua yang hampir tutup. Dengan kurangnya pengunjung dan perbaikan yang mahal tetapi diperlukan untuk menjaga pintunya tetap terbuka, direktur dihadapkan dengan menutup pendirian untuk selamanya pada akhir musim panas. Cucu perempuan sutradara yang menyukai kehidupan akuatik—Kukuru Misakino—tidak tahan memikirkan penutupan akuarium dan bertekad untuk menghasilkan cukup uang pada akhir musim agar pintu tetap terbuka. Melihat keajaiban akuarium yang unik, Fuuka memohon pekerjaan pada Kukuru; Namun, dia segera menemukan bahwa kurangnya pengalaman membuatnya menjadi penghalang lebih dari apa pun. Pada saat yang sama, Kukuru menyadari bahwa tujuan ambisiusnya mungkin lebih dari yang bisa dia tangani. Dengan tekanan yang meningkat dari sekitar mereka, akankah Kukuru dan Fuuka dapat menyelamatkan satu-satunya tempat yang mereka pegang erat di hati mereka?",
       status: "Ongoing",
-      jumlahEps: "#",
+      jumlahEps: "0",
       judul: "Shiroi Suna no Aquatope",
     },
     {
@@ -137,7 +137,7 @@ export default function ListEpisode() {
       sinopsis:
         "Kalender matahari tahun 2020: organisme aneh yang disebut Lainnya telah mulai memakan manusia. Untuk mengalahkan musuh baru ini, dibentuklah Other Suppression Force. Diselamatkan oleh tim elit ini sebagai seorang anak, psikokinetik Yuito bertahan dari pelatihan untuk mendaftar. Di sisi lain, keajaiban Kasane dibina karena kemampuannya. Tapi mimpi Kasane menceritakan hal-hal aneh padanya, menyeret keduanya ke dalam nasib yang tak terhindarkan.",
       status: "Ongoing",
-      jumlahEps: "#",
+      jumlahEps: "0",
       judul: "Scarlet Nexus",
     },
     {
@@ -171,7 +171,7 @@ export default function ListEpisode() {
         "CoMix Wave Films",
       sinopsis: "Mitsuha Miyamizu, seorang gadis sekolah menengah, mendambakan untuk menjalani kehidupan seorang anak laki-laki di kota Tokyo yang ramai—sebuah mimpi yang sangat kontras dengan kehidupannya saat ini di pedesaan. Sementara itu di kota, Taki Tachibana menjalani kehidupan yang sibuk sebagai siswa sekolah menengah sambil menyulap pekerjaan paruh waktu dan harapan untuk masa depan dalam arsitektur. Suatu hari, Mitsuha terbangun di sebuah ruangan yang bukan miliknya dan tiba-tiba mendapati dirinya menjalani kehidupan impian di Tokyo—tetapi di dalam tubuh Taki! Di tempat lain, Taki mendapati dirinya menjalani kehidupan Mitsuha di pedesaan yang sederhana. Dalam mengejar jawaban atas fenomena aneh ini, mereka mulai mencari satu sama lain. Kimi no Nawa. berkisah tentang tindakan Mitsuha dan Taki, yang mulai memiliki dampak dramatis pada kehidupan masing-masing, menenun mereka menjadi kain yang disatukan oleh nasib dan keadaan.",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 14,
@@ -182,7 +182,7 @@ export default function ListEpisode() {
       sinopsis:
         "Tokyo saat ini mengalami hujan deras yang tampaknya mengganggu kecepatan semua orang yang tinggal di sana tanpa henti. Di tengah hujan yang tampaknya abadi ini tibalah siswa sekolah menengah yang melarikan diri, Hodaka Morishima, yang berjuang untuk menghidupi dirinya sendiri secara finansial — berakhir dengan pekerjaan di penerbit kecil-kecilan. Pada saat yang sama, anak yatim piatu Hina Amano juga berusaha mencari pekerjaan untuk menghidupi dirinya dan adiknya. Kedua nasib terjalin ketika Hodaka mencoba untuk menyelamatkan Hina dari pria teduh, memutuskan untuk melarikan diri bersama. Selanjutnya, Hodaka menemukan bahwa Hina memiliki kekuatan yang aneh namun menakjubkan: kemampuan untuk memanggil matahari setiap kali dia berdoa untuk itu. Dengan mempertimbangkan cuaca Tokyo yang tidak biasa, Hodaka melihat potensi dari kemampuan ini. Dia menyarankan agar Hina menjadi 'gadis sinar matahari'—seseorang yang akan membersihkan langit bagi orang-orang saat mereka sangat membutuhkannya. Hal-hal mulai mencari mereka pada awalnya. Namun, sudah menjadi rahasia umum bahwa kekuasaan selalu datang dengan harga yang mahal...",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 15,
@@ -193,7 +193,7 @@ export default function ListEpisode() {
       sinopsis:
         "Sebagai seorang pemuda liar, siswa sekolah dasar Shouya Ishida berusaha untuk mengalahkan kebosanan dengan cara yang paling kejam. Ketika Shouko Nishimiya yang tuli pindah ke kelasnya, Shouya dan seluruh kelasnya tanpa berpikir menggertaknya untuk bersenang-senang. Namun, ketika ibunya memberi tahu sekolah, dia dipilih dan disalahkan atas semua yang dilakukan padanya. Dengan Shouko pindah dari sekolah, Shouya ditinggalkan oleh belas kasihan teman-teman sekelasnya. Dia tanpa perasaan dikucilkan di seluruh sekolah dasar dan menengah, sementara para guru menutup mata. Sekarang di tahun ketiga sekolah menengahnya, Shouya masih diganggu oleh kesalahannya sebagai anak muda. Dengan tulus menyesali tindakan masa lalunya, dia memulai perjalanan penebusan: untuk bertemu Shouko sekali lagi dan menebus kesalahan. Koe no Katachi menceritakan kisah yang mengharukan tentang reuni Shouya dengan Shouko dan upaya jujurnya untuk menebus dirinya sendiri, sambil terus dihantui oleh bayang-bayang masa lalunya.",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 16,
@@ -204,7 +204,7 @@ export default function ListEpisode() {
       sinopsis:
         "Setelah serangkaian penghilangan misterius mulai mengganggu kereta api, beberapa upaya Korps Pembunuh Setan untuk mengatasi masalah tersebut terbukti sia-sia. Untuk mencegah korban lebih lanjut, pilar api, Kyoujurou Rengoku, mengambilnya sendiri untuk menghilangkan ancaman. Mendampingi dia adalah beberapa darah baru Korps yang paling menjanjikan: Tanjirou Kamado, Zenitsu Agatsuma, dan Inosuke Hashibira, yang semuanya berharap untuk menyaksikan prestasi berapi-api dari model pembunuh iblis ini secara langsung. Tanpa sepengetahuan mereka, kekuatan iblis yang bertanggung jawab atas penghilangan tersebut telah menjalankan rencana jahat mereka. Di bawah kehadiran iblis ini, kelompok itu harus mengerahkan setiap ons tekad mereka dan menghunus pedang mereka untuk menyelamatkan dua ratus penumpang di dalamnya. Kimetsu no Yaiba Movie: Mugen Ressha-hen menggali ke sudut terdalam dari pikiran Tanjirou, menempatkan tekad dan komitmennya pada tugas untuk diuji.",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 17,
@@ -215,7 +215,7 @@ export default function ListEpisode() {
       sinopsis:
         "Miyo Sasaki adalah seorang gadis SMA energik yang berasal dari keluarga berantakan yang terdiri dari ayahnya yang tidak percaya diri dan ibu tiri yang terlalu banyak berinvestasi, yang upayanya untuk berhubungan dengan Miyo dianggap menyusahkan. Melihat Kento Hinode sebagai tempat perlindungan dari semua masalah pribadinya, dia tidak dapat menahan diri untuk tidak memaksakan demonstrasi cinta yang tidak lazim kepada orang yang dia sukai. Sementara Miyo tidak bisa mendapatkan perhatian Kento sebagai dirinya sendiri, dia berhasil berinteraksi dengannya dalam bentuk kucing putih, yang dijuluki 'Tarou' oleh Kento. Tapi Miyo segera menyadari bahwa dia tidak dapat membantu Kento dengan berbagai masalah yang dia dengar dalam bentuk kucingnya dan sekarang terjebak di antara dua pilihan sulit. Akankah dia melanjutkan hubungannya dengan dia sebagai kucing, atau akankah dia mengungkapkan identitasnya dan mempertaruhkan apa yang mereka miliki, untuk membantunya sebagai diri manusianya?",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 18,
@@ -226,7 +226,7 @@ export default function ListEpisode() {
       sinopsis:
         "Melanjutkan keturunan berbahaya mereka menyusuri Abyss, Riko, Regu, dan teman baru Nanachi mencapai lapisan kelima Abyss, The Sea of ​​Corpses. Setelah tiba di stasiun penelitian yang dikenal sebagai Idofront, trio utama bertemu dengan Prushka yang misterius, dugaan putri Bondrewd, yang membawa mereka ke Peluit Putih yang bertanggung jawab atas masa lalu kelam Nanachi. Terlepas dari penampilan yang ramah dari penduduk Idofront, Nanachi memperingatkan para petualang muda bahwa segala sesuatu tidak selalu seperti yang terlihat. Dengan satu-satunya rute ke lapisan keenam yang diselimuti misteri dan skema Bonedrewd menunggu mereka, pengorbanan apa yang harus dilakukan untuk melanjutkan perjalanan ke dasar Abyss?",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 19,
@@ -237,7 +237,7 @@ export default function ListEpisode() {
       sinopsis:
         "Digimon yang terinfeksi—monster digital yang mulai bertindak dengan cara mengamuk dan mengalami peningkatan kekuatan yang aneh—sedang menyerang dunia nyata. Sementara Maki Himekawa dan Daigo Nishijima, agen Incorporated Administrative Agency yang misterius, berusaha mempelajari lebih lanjut tentang penampilan yang mengganggu ini, sebagian besar Anak Terpilih sibuk mempersiapkan festival musim panas Sekolah Menengah Umum Tsukishima. Mimi Tachikawa, yang baru saja kembali ke Jepang setelah tinggal di Amerika Serikat selama bertahun-tahun, berjuang untuk menemukan pijakannya di antara teman-teman sekelasnya dan sesama Anak Terpilih. Sementara itu, dengan menceburkan diri ke dalam studinya, Jou Kido sengaja menghindari semua masalah yang berkaitan dengan Digimon, menyebabkan rekannya Gomamon melarikan diri. Tindakan individu Mimi dan Jou menyebabkan gesekan dalam kelompok bahkan ketika ancaman Digimon yang terinfeksi masih membayangi mereka. Akankah keduanya menyelesaikan konflik pribadi mereka tepat waktu untuk membantu teman-teman mereka melawan ancaman terbaru?",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 20,
@@ -248,7 +248,7 @@ export default function ListEpisode() {
       sinopsis:
         "Karena kesuksesan Sistem Sibyl yang luar biasa, Jepang telah mulai mengekspor teknologinya ke negara lain dengan harapan suatu hari nanti akan digunakan di seluruh dunia. Untuk menguji keefektifannya di lokasi asing, negara bagian South East Asian Union (SEAUn) yang dilanda perang memutuskan untuk menerapkan sistem tersebut, dengan harapan dapat membawa perdamaian dan stabilitas ke kota Shambala Float dan menjaga populasi tetap terkendali. Namun, sekelompok teroris anti-Sibyl tiba di Jepang, dan Biro Keamanan Publik Kementerian Kesejahteraan menemukan bukti signifikan bahwa para penyerbu dibantu oleh Shinya Kougami, mantan Enforcer yang menjadi nakal. Karena hubungan masa lalu mereka, Akane Tsunemori dikirim ke SEAUn untuk membawanya kembali, tetapi dengan pertemuan terakhir mereka di masa lalu, reuni mereka mungkin tidak berjalan sesuai rencana.",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
     {
       id: 21,
@@ -259,16 +259,29 @@ export default function ListEpisode() {
       sinopsis:
         "Beberapa tahun telah berlalu sejak akhir Perang Besar. Ketika menara radio di Leidenschaftlich terus dibangun, telepon akan segera menjadi lebih relevan, yang menyebabkan penurunan permintaan untuk 'Boneka Memori Otomatis'. Meski begitu, Violet Evergarden terus meningkat ketenarannya setelah kesuksesannya yang konstan dengan menulis surat. Namun, terkadang satu hal yang Anda dambakan adalah satu hal yang tidak muncul. Violet Evergarden Movie mengikuti Violet saat ia terus memahami konsep emosi dan makna cinta. Pada saat yang sama, dia mengejar secercah harapan bahwa pria yang pernah mengatakan kepadanya, 'Aku mencintaimu,' mungkin masih hidup bahkan setelah bertahun-tahun berlalu.",
       status: "-",
-      jumlahEps: "-",
+      jumlahEps: "0",
     },
   ]);
-  let { id } = useParams();
+
   let params = useParams();
+  let jumlahEpisode = detailAnime[params.id].jumlahEps
+  console.log(jumlahEpisode)
+  let { id } = useParams();
   console.log({ id });
   console.log(detailAnime[params.id].judul);
+
+  function getEpisode() {
+    let list = document.getElementById("list")
+    console.log(list)
+    for (let i = 0; i < jumlahEpisode; i++) {
+      console.log(list = `episode ${i+1}`)
+    }
+  }
+  getEpisode()
   return (
     <React.Fragment>
       <div className="">
+        <p>{getEpisode}</p>
         <Header></Header>
         {/* Isi */}
         <div className="space-y-8 px-12 h-screen py-10">
@@ -318,17 +331,13 @@ export default function ListEpisode() {
             <p className="text-xl mt-4">{detailAnime[params.id].sinopsis}</p>
           </div>
           {/* Sinopsis */}
-          {/* Episode */}
           <div className="px-10">
             <h1 className="capitalize text-4xl font-semibold mb-5">episode</h1>
-                {/* {detailAnime.map((i,key)=>(
-                  <Episode key={key} eps={i.episode}></Episode>
-                    ))} */}
+            <div className="grid grid-cols-4">
+              <p id="list">episode</p>
+            </div>
           </div>
-          {/* Episode */}
         </div>
-
-        {/* Isi */}
       </div>
     </React.Fragment>
   );

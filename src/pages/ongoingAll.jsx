@@ -14,8 +14,8 @@ export default function ListOngoing() {
         },
         {
             id:6,
-            url:"https://images.alphacoders.com/820/thumb-1920-820755.png",
-            judul:"boruto the next generation",
+            url:"https://images4.alphacoders.com/117/thumb-1920-1172553.jpg",
+            judul:"The Detective Has Already Dead",
             episode:"217",
         },
         {

@@ -2,8 +2,11 @@ import React from "react";
 import Header from "../component/header";
 import snk from "../assets/tensura.mp4"
 import { Link } from "react-router-dom";
+import { useParams } from "react-router";
 
 export default function VideoPlayer() {
+    let {id} = useParams()
+    console.log({id})
     return(
         <React.Fragment>
             <Header></Header>
